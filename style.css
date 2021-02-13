@@ -27,12 +27,12 @@ body {
     height: 90%;
 }
 
-.name {
+.name, .amount {
     display: inline;
 }
 
 .cookie {
-    margin: 30% auto;
+    margin: 5% auto;
     margin-bottom: 0;
     position: relative;
     width: 50%;
@@ -46,4 +46,11 @@ body {
     width: 50%;
     height: 5%;
     background-color: green;
+}
+
+.monster {
+    margin: 0 auto;
+    margin-top: 30%;
+    width: 50%;
+    height: 5%;
 }

@@ -17,12 +17,14 @@
                 <p class="name" id="name">Walec</p>
                 <p class="name" id="level">lvl. 8</p>
             </div>
-            <div class="cookie"></div>
-            <div class="hpbar"></div>
+            <div class="cookie" id="cookie">Kliknij mnie!</div>
+            <div class="hpbar" id="hpbar"></div>
         </div>
         <div class="account"></div>
         <p class="amount">Zęby walca: </p>
         <p class="amount" id="number"></p>
     </div>
+    <button onclick="setCookie('cookie', cookies.toString())">SAVE</button>
+    <button onclick="delCookie('cookie')">USUN SAVE</button>
 </body>
 </html>
